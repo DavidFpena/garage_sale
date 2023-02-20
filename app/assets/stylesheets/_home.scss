@@ -23,23 +23,63 @@ p {
 }
 
 #home_categories_cont{
-  height: 10vh;
+  height: fit-content;
   background-color: #ffffff8c;
   max-width: 100%;
+  margin: 1vw;
 }
 
 .home-categories{
   padding: 3vh;
-  width: 100%;
-  border-left: solid 5px #efefefc7;
-  border-right: solid 5px #efefefc7;
+  display: flex;
+  justify-content: center;
+}
+
+.home-categories + .home-categories{
+  border-left: solid 1vw #e4e4e4b8;
 }
 
 .categories-text {
   text-align-last: center;
   margin: 0;
+  width: fit-content;
+}
+
+#items-container{
+  margin: 1vw;
+  background-color: #ffffff8c;
+  height: 100vh;
+}
+
+#item-sorter-home-container{
+  height: fit-content;
+  padding: 0.75vw;
+  align-self: self-end;
+}
+#item-sorter-home{
+  width: 15vw;
+  height: 12vh;
+  border: solid 0.15vw #ffffff8c;
+  background-color: #e4e4e4b8;
 }
 
 @media (max-width: 40em) {
-
+  #banner-text{
+    font-size: 8vw;
+    text-align: center;
+    padding: 5vw;
+    line-height: normal;
+  }
+  #banner-container{
+    height: 21vh;
+  }
+  .home-categories{
+    border: solid 1vw #e4e4e4b8;
+  }
+  #home_categories_cont{
+    height: fit-content;
+    background-color: #ffffff8c;
+    max-width: 100%;
+    margin: 0;
+  }
 }
