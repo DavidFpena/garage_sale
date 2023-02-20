@@ -1,0 +1,45 @@
+body {
+  height: 500vh;
+}
+
+p {
+  margin: 0;
+}
+
+#banner-container{
+  height: 23.19vh;
+  width: 100;
+}
+
+#banner-text {
+  font-family: 'Inter', sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 3.75vw;
+  line-height: 8.05vh;
+  letter-spacing: -0.1555vh;
+
+  color: #000000;
+}
+
+#home_categories_cont{
+  height: 10vh;
+  background-color: #ffffff8c;
+  max-width: 100%;
+}
+
+.home-categories{
+  padding: 3vh;
+  width: 100%;
+  border-left: solid 5px #efefefc7;
+  border-right: solid 5px #efefefc7;
+}
+
+.categories-text {
+  text-align-last: center;
+  margin: 0;
+}
+
+@media (max-width: 40em) {
+
+}
